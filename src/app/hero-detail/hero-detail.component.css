@@ -1,0 +1,20 @@
+hr {
+  width: 25%;
+  background-color:rgb(85,114,128);
+  align-content: left;
+  height: 2px;
+  margin-left: 0;
+}
+button {
+  padding: 0.5em;
+  width: 25%;
+  text-align: center;
+  background-color:rgb(85,114,128);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+button:hover {
+  cursor: pointer;
+  background-color:rgba(85,114,128, 0.8);
+}
