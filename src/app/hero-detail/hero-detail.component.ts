@@ -33,6 +33,12 @@ export class HeroDetailComponent implements OnInit {
     this.location.back();
   }
 
+  save(): void {
+    this.heroService.updateHero(this.hero)
+      .subscribe(() => this.goBack());
+  }
+
+
   // onRemoveHero(): void {
   //   const newHeroes = this.heroes.filter((el) => {
   //     return el.name !== this.selectedHero.name;
